@@ -1,0 +1,33 @@
+c manhattan.cnf (http://www-desir.lip6.fr/~durrc/Iut/optim/t/x1x2x3x4x5x6)
+c
+p cnf 6 16
+c
+c from A to B
+c
+1 4 0 
+1 2 0
+6 4 0
+6 2 0
+c
+c from C to D
+c
+-3 -6 0
+-3 -1 0
+-5 -6 0
+-5 -1 0
+c
+c from E to A 
+c
+-2 -5 0
+-2 -1 0
+-4 -5 0
+-4 -1 0
+c
+c from D to B
+c
+5 1 0
+5 6 0
+2 1 0
+2 6 0
+c 
+c solution: http://www-desir.lip6.fr/~durrc/Iut/optim/t/100001

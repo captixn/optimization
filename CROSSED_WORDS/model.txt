@@ -1,0 +1,10 @@
+# modélise la grille comme une grille 2d de variables x(i,j) 
+# si dans la grille il y a # alors x(i,j) = 0 
+# sinon x(i,j) = { a .. z } (un char)
+
+# soit (m,n) la taille de la grille 
+# pour tout i : 
+# si X(i, 0) and X(i, 1) and ... X(i, n-1) alors emettre contrainte X(i,0)+X(i,1)+...+X(i,n-1) = un des mots à n lettres
+# générer de la même manière pour toutes les combinaisons (i,j) 
+# => donne au plus i² + m² contraintes 
+
